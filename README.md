@@ -4,8 +4,9 @@
 Downloads the recent photos shared between recent contacts on Facebook
 
 ###Dependencies
-*[Chrome](https://www.google.com/chrome/)
-*Selenium
+[Chrome](https://www.google.com/chrome/)
+
+Selenium
 ```
   pip3 install selenium
 ```
