@@ -1,13 +1,16 @@
-# Downloads the recent photos shared between recent contacts on Facebook
+# FB Chat Photos Downloader
+(ya, I am pretty bad at naming projects...)
 
-##Dependencies
+Downloads the recent photos shared between recent contacts on Facebook
+
+###Dependencies
 *[Chrome](https://www.google.com/chrome/)
 *Selenium
 ```
   pip3 install selenium
 ```
 
-##Run
+###Run
 ```
   python3 FBChatImageGetter.py
 ```
