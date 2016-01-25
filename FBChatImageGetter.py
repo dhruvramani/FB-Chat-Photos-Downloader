@@ -11,7 +11,7 @@ def LogInMessenger(email,password):
 	driver.find_element_by_id('loginbutton').click()
 
 def GetImages():
-	driver.implicitly_wait(4)
+	driver.implicitly_wait(10)
 	imageList=driver.find_elements_by_css_selector('._3m31')
 
 	count=1
@@ -22,7 +22,7 @@ def GetImages():
 		count+=1
 
 def showUsers():
-	driver.implicitly_wait(4)
+	driver.implicitly_wait(10)
 	userList=driver.find_elements_by_class_name('_1ht6')
 	count = 0
 	option=0
